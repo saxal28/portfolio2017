@@ -3,7 +3,8 @@ body {
   color:white;
   text-align: center;
   font-family: "Megrim";
-  background:url('http://i.imgur.com/ltmWANZ.png');
+  background:url('https://i.imgur.com/ltmWANZ.png');
+  /*background:url("../src/images/stars.png");*/
   background-size: cover;
   background-attachment: fixed;
 }
@@ -11,7 +12,7 @@ body {
 h1 {
   font-size: 9em;
   /*text-shadow:10px 5px black;*/
-  text-shadow: 3px 3px black;
+  text-shadow: 5px 5px black;
 }
 
 h4 {
@@ -66,14 +67,14 @@ section {
   background:transparent;
 }
 
-.overlay {
-  background:rgba(0,0,0,0.85);
-  max-height: 1000px;
-  padding: 260px 25%;
-}
+/*.overlay {*/
+/*  background:rgba(0,0,0,0.85);*/
+/*  max-height: 1000px;*/
+/*  padding: 260px 25%;*/
+/*}*/
 
 .portfolio-text {
-  padding: 20px 0;
+  padding: 20px 20%;
 }
 
 strong {
@@ -85,25 +86,36 @@ strong {
 }
 
 /*portfolio section slides*/
+/*fittools*/
 #portfolio-item1 {
-  background:url("http://i.imgur.com/SEBBOlx.png");
+  background:url("../src/images/fittools.png");
+  background-color:#333;
+  background-blend-mode: multiply;
   background-size:cover;
-  background-position:center left;
 }
 
+/*fitbook*/
 #portfolio-item2 {
-  background:url('http://i.imgur.com/q3gh8KD.png');
-  background-size: cover;
+  background:url('../src/images/fitboard.png');
+  background-color:#333;
+  background-blend-mode: multiply;
+  background-size:cover;
 }
 
+/*weather app*/
 #portfolio-item3 {
-  background:url('http://i.imgur.com/sbObHcJ.png');
-  background-size: cover;
+  background:url('../src/images/weather.png');
+  background-color:#333;
+  background-blend-mode: multiply;
+  background-size:cover;
 }
 
+/*youtube clone*/
 #portfolio-item4{
-  background:url('http://i.imgur.com/S30W9H5.png');
-  background-size: cover;
+  background:url('../src/images/youtube.png');
+  background-color:#333;
+  background-blend-mode: multiply;
+  background-size:cover;
 }
 
 #title {
@@ -119,6 +131,22 @@ strong {
   background:black;
 }
 
-#contact {
-  /*background:#40832b;*/
-}
+
+/*media queries*/
+
+/*=====================*/
+/*iphone 6 and 6+ sizes*/
+/*=====================*/
+/*@media only screen */
+/*and (min-device-width : 768px) */
+/*and (max-device-width : 1024px)  { */
+/*  body {*/
+/*    color:white;*/
+/*  }*/
+  
+/*    .overlay {*/
+/*    padding: 200px 15%;*/
+/*    height:800px;*/
+/*  }*/
+
+/*}*/
