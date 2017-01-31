@@ -1,0 +1,124 @@
+body {
+  background:gray;
+  color:white;
+  text-align: center;
+  font-family: "Megrim";
+  background:url('http://i.imgur.com/ltmWANZ.png');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-size: 9em;
+  /*text-shadow:10px 5px black;*/
+  text-shadow: 3px 3px black;
+}
+
+h4 {
+  font-size:3em;
+  /*text-shadow: 5px 5px black;*/
+  font-family: Megrim;
+}
+
+.btn-outline-custom {
+  background:transparent;
+  margin-top:30px;
+  border:3px solid white;
+  border-bottom:6px solid white;
+  font-size:24px;
+  width:90px;
+  padding:10px;
+  text-align:center;
+  font-weight:bold;
+  color:white;
+}
+
+.resume {
+  margin-top:7px;
+  width:auto;
+}
+
+.btn-outline-custom:hover {
+  border: 3px solid rgba(0,0,0,0.35);
+  /*box-shadow: 0px 5px 3px black;*/
+  border-bottom:6px solid black;
+  background:rgba(0,0,0,0.5);
+  color:white;
+  -webkit-transition: border, 900ms background 1000ms; /* Safari */
+  transition: border 900ms, background 1000ms;
+}
+
+.fa {
+  font-size:25px;
+}
+
+hr {
+  width:70%;
+  box-shadow:5px 5px black;
+}
+
+img {
+  width:20%;
+  box-shadow:5px 5px 25px black;
+}
+
+section {
+  background:transparent;
+}
+
+.overlay {
+  background:rgba(0,0,0,0.85);
+  max-height: 1000px;
+  padding: 260px 25%;
+}
+
+.portfolio-text {
+  padding: 20px 0;
+}
+
+strong {
+  color:orange;
+  font-weight:bold;
+}
+
+.slide {
+}
+
+/*portfolio section slides*/
+#portfolio-item1 {
+  background:url("http://i.imgur.com/SEBBOlx.png");
+  background-size:cover;
+  background-position:center left;
+}
+
+#portfolio-item2 {
+  background:url('http://i.imgur.com/q3gh8KD.png');
+  background-size: cover;
+}
+
+#portfolio-item3 {
+  background:url('http://i.imgur.com/sbObHcJ.png');
+  background-size: cover;
+}
+
+#portfolio-item4{
+  background:url('http://i.imgur.com/S30W9H5.png');
+  background-size: cover;
+}
+
+#title {
+  background:transparent;
+  /*background: #fbe8b0;*/
+}
+
+#skills {
+  background: #b5ba63;
+}
+
+#portfolio {
+  background:black;
+}
+
+#contact {
+  /*background:#40832b;*/
+}
