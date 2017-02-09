@@ -4,7 +4,8 @@ body {
   text-align: center;
   font-family: "Megrim";
   /*background:url('https://i.imgur.com/ltmWANZ.png');*/
-  background:url("https://awesomewallpapers.files.wordpress.com/2015/08/3-4.jpg");
+  /*background:url(../src/images/stars.png), #333;/*/
+  background:url("../src/images/colorful.jpg");
   /*background:url("http://i.imgur.com/smIamLU.jpg");*/
   background-size: cover;
   background-attachment: fixed;
@@ -19,8 +20,16 @@ h1 {
 }
 
 .headline {
-    text-shadow: 0px 23px black;
+    text-shadow: 0px 13px black;
     font-weight:bold;
+      font-size: 12em;
+}
+
+.sub-headline {
+  font-size: 7em;
+  font-weight:bold;
+      text-shadow: 0px 8px black;
+
 }
 
 h4 {
@@ -58,12 +67,14 @@ h4 {
 }
 
 .fa {
-  font-size:24px;
+  font-size:2.5em;
+  padding:5px;
 }
 
-.fa-download {
-  font-size:28px;
+.fa-arrow-right, .fa-arrow-left {
+  font-size:1.5em;
 }
+
 
 hr {
   width:70%;
@@ -80,8 +91,9 @@ section {
 }
 
 .portfolio-text {
-  padding: 20px 21%;
+  padding: 20px 30%;
   font-size:2.5em;
+  line-height: 50px;
 }
 
 strong {
@@ -90,10 +102,13 @@ strong {
 }
 
 /*portfolio section slides*/
+#portfolio-title-slide {
+  background:transparent;
+}
 /*fittools*/
 #portfolio-item1 {
   background:
-    url(../src/images/fittools.png);
+    url("../src/images/fittools (1).png");
   background-color:#333;
   background-blend-mode: multiply;
   background-size:cover;
@@ -102,7 +117,7 @@ strong {
 #portfolio-item-11 {
   
     background:
-    url("http://i.imgur.com/XUhxjVU.png");
+    url("../src/images/noted (1).png");
   background-color:#333;
   background-blend-mode: multiply;
   background-size:cover;
@@ -111,14 +126,6 @@ strong {
 /*fitbook*/
 #portfolio-item2 {
   background:url('../src/images/fitboard.png');
-  background-color:#333;
-  background-blend-mode: multiply;
-  background-size:cover;
-}
-
-/*weather app*/
-#portfolio-item3 {
-  background:url('../src/images/weather.png');
   background-color:#333;
   background-blend-mode: multiply;
   background-size:cover;
@@ -164,9 +171,9 @@ and (max-device-width : 1024px)  {
     font-size: 4em;
   }
   
-  .fa {
-    font-size:1.5em;
-  }
+  /*.fa {*/
+  /*  font-size:2em;*/
+  /*}*/
   
   .portfolio-text {
     padding: 20px 20%;
@@ -177,7 +184,7 @@ and (max-device-width : 1024px)  {
   .resume {
     margin-top:7px;
     width:auto;
-    font-size:2em;
+    font-size:5em;
   }
   
   .btn-outline-custom {
@@ -187,7 +194,10 @@ and (max-device-width : 1024px)  {
     padding:20px;
     height:auto;
   }
+
   
-  
+  .sub-headline {
+    font-size:5em;
+  }
 
 }
