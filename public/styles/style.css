@@ -16,16 +16,22 @@ h1 {
   font-family: "Permanent Marker";
   /*text-shadow:10px 5px black;*/
   text-shadow: 10px 6px black;
-  
+}
+
+h2 {
+    font-size: 4.5em;
+  font-family: "Permanent Marker";
+  /*text-shadow:10px 5px black;*/
+  text-shadow: 7px 4px black;
 }
 
 .headline {
     text-shadow: 9px 13px black;
-      font-size: 11em;
+      font-size: 10em;
 }
 
 .sub-headline {
-  font-size: 4.5em;
+  font-size: 3.5em;
   font-family: "Permanent Marker";
   text-shadow: 0px 8px black;
 
@@ -59,6 +65,7 @@ h4 {
 
 .wider-button {
   padding: 10px 20px;
+  margin:8px;
 }
 
 .btn-outline-custom:hover {
@@ -113,8 +120,20 @@ strong {
   /*font-weight:bold*/
 }
 
+
+.text-container {
+  max-width:800px;
+  margin: 0 auto;
+}
+
+.bio-image {
+  width:35%;
+  border:8px solid white;
+  border-radius: 100%;
+}
+
 .arrow-box {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .arrow-box > .fa {
@@ -233,6 +252,11 @@ and (max-device-width : 1024px)  {
   
   body, h4 {
     font-family: "Cabin"
+  }
+  
+  .bio-image {
+    width:50%;
+    margin-bottom:40px;
   }
 
 }

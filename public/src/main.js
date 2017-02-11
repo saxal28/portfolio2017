@@ -1,7 +1,8 @@
 // fullPageJS plugin
 $(document).ready(function() {
     $('#fullpage').fullpage({
-        controlArrows: false
+        controlArrows: false,
+        anchors:["home","aboutme","projects","contactme"]
     });
 
 });
