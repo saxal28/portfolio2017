@@ -7,38 +7,41 @@ body {
   /*background:url(../src/images/stars.png), #333;/*/
   background:url("../src/images/colorful.jpg");
   /*background:url("http://i.imgur.com/smIamLU.jpg");*/
+  /*background:darkslateblue;*/
   background-size: cover;
   background-attachment: fixed;
 }
 
 h1 {
   font-size: 8em;
-  font-family: "Permanent Marker";
-  /*text-shadow:10px 5px black;*/
-  text-shadow: 10px 6px black;
+  font-family: "Bungee";
+  text-shadow: 0px 16px black;
+  /*text-shadow:6px 4px 2px black;*/
 }
 
 h2 {
     font-size: 4.5em;
-  font-family: "Permanent Marker";
-  /*text-shadow:10px 5px black;*/
-  text-shadow: 7px 4px black;
+  font-family: "Cabin";
+  /*text-shadow:4px 3px 1px black;*/
+
+  /*text-shadow: 7px 4px black;*/
 }
 
 .headline {
-    text-shadow: 9px 13px black;
+    /*text-shadow: 9px 13px black;*/
       font-size: 10em;
 }
 
 .sub-headline {
   font-size: 3.5em;
   font-family: "Permanent Marker";
-  text-shadow: 0px 8px black;
+  text-shadow: 4px 3px black;
 
 }
 
 h4 {
   font-size:3.2em;
+  text-shadow: 4px 3px black;
 }
 
 .btn-outline-custom {
@@ -69,13 +72,10 @@ h4 {
 }
 
 .btn-outline-custom:hover {
-  /*border: 4px solid rgba(0,0,0,0.35);*/
-  /*box-shadow: 0px 5px 3px black;*/
-  /*border-bottom:6px solid black;*/
-  /*background:rgba(0,0,0,0.5);*/
-  /*color:orange;*/
+    color:orange;
+  background:rgba(0,0,0,0.2);
   -webkit-transition: all 900ms; /* Safari */
-  /*transition: all 1500ms linear;*/
+  transition: all 900ms linear;
 }
 
 .fa {
@@ -87,16 +87,15 @@ h4 {
   font-size:1.5em;
 }
 
+.fa-hover {
+  background:none;
+}
 
 hr {
   width:70%;
   box-shadow:5px 5px black;
 }
 
-img {
-  width:20%;
-  box-shadow:5px 5px 25px black;
-}
 
 section {
   background:transparent;
@@ -106,6 +105,11 @@ section {
   padding: 20px 22%;
   font-size:2.5em;
   line-height: 50px;
+  text-shadow:4px 3px 1px black;
+}
+
+.no-border {
+  border: none;
 }
 
 strong {
@@ -133,11 +137,28 @@ strong {
 }
 
 .arrow-box {
-  margin-top: 20px;
+  position:fixed;
+  bottom:0;
+  right:0;
 }
 
 .arrow-box > .fa {
-  font-size: 7em;
+  font-size: 5em;
+}
+
+.about-me {
+  background:darkcyan;
+  text-align:left;
+}
+
+.hobbies {
+  background:olivedrab;
+  text-align: left;
+}
+
+.goals {
+ background:chocolate;
+ text-align: left
 }
 
 /*portfolio section slides*/
@@ -204,7 +225,7 @@ and (max-device-width : 1024px)  {
     h1 {
       font-weight:bold;
       font-size:11em;
-      text-shadow: 10px 21px black;
+      /*text-shadow: 10px 21px black;*/
   }
   
   h4 {
@@ -246,8 +267,7 @@ and (max-device-width : 1024px)  {
   }
   
   .headline {
-    text-shadow: 4px 12px black;
-    text-shadow: 10px 21px black;
+    /*text-shadow: 4px 12px black;*/
 }
   
   body, h4 {

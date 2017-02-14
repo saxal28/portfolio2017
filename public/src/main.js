@@ -9,4 +9,3 @@ $(document).ready(function() {
 
 // fittext
  $("#responsive_headline").fitText();
-     $('.fp-controlArrow fp-next').hide();
