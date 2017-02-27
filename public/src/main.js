@@ -5,18 +5,20 @@ $(document).ready(function() {
         anchors:["home","aboutme","projects","contactme"],
         continuousVertical: true,
     });
-
+    
+    // fittext
+    //  $("#responsive_headline").fitText();
 
     console.log(window);
+    
     $("#down").click(function() {
-        // var down = document.getElementById("down");
-        // var hash = window.location.href.substring(41);
-        // var location = window.location;
-        // location.hash = "#aboutme";
-        // document.body.querySelector("#contact").scrollIntoView(true);
+        var e = $.Event('keyup');
+        e.keyCode= 40; // enter
+        $(this).trigger(e);
     })
 });
 
-// fittext
- $("#responsive_headline").fitText();
+ 
+ 
+
  
