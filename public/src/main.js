@@ -16,6 +16,12 @@ $(document).ready(function() {
         e.keyCode= 40; // enter
         $(this).trigger(e);
     })
+    
+    $(".fa").hover(function() {
+        $(this).addClass("animated bounce");
+    }, function() {
+        $(this).removeClass("animated bounce");
+    })
 });
 
  

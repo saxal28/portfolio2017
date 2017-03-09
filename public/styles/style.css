@@ -13,9 +13,9 @@ body {
 }
 
 h1 {
-  font-size: 7em;
+  font-size: 9.5vh;
   font-family: "Bungee";
-  text-shadow: 0px 16px black;
+  text-shadow: 0px 11px black;
   /*text-shadow:6px 4px 2px black;*/
 }
 
@@ -28,19 +28,19 @@ h2 {
 }
 
 .headline {
-    /*text-shadow: 9px 13px black;*/
-      font-size: 8em;
+      font-size: 11vh;
 }
 
 .sub-headline {
-  font-size: 3.5em;
+  font-size: 4.5vh;
   font-family: "Permanent Marker";
   text-shadow: 4px 3px black;
 
 }
 
 h4 {
-  font-size:3.2em;
+  font-size:3.5vh;
+  font-family: "Permanent Marker";
   text-shadow: 4px 3px black;
 }
 
@@ -48,7 +48,7 @@ h4 {
   background:transparent;
   /*margin-top:20px;*/
   border: 4px solid white;
-  font-size:28px;
+  font-size:3vh;
   width:auto;
   min-width:70px;
   padding:10px;
@@ -72,19 +72,25 @@ h4 {
 }
 
 .btn-outline-custom:hover {
-  box-shadow: 0px 6px 16px #333;
+
   -webkit-transition: all 900ms; /* Safari */
   transition: all 300ms linear;
-  border-color:#333;
+  color:orange;
+  border-color:orange;
+}
+
+.no-border, .no-border:hover {
+  border:none;
 }
 
 .fa {
-  font-size:2.5em;
+  font-size:6vh;
   padding:5px;
 }
 
 .fa-arrow-right, .fa-arrow-left {
-  font-size:1.5em;
+  font-size:6vh;
+  color:white;
 }
 
 .fa-hover {
@@ -102,9 +108,12 @@ section {
 }
 
 .portfolio-text {
-  padding: 20px 22%;
-  font-size:2.5em;
-  line-height: 50px;
+  padding: 50px 40px;
+  max-width:620px;
+  margin:0 auto;
+  font-size:3.5vh;
+  text-align: left;
+  line-height: 1.4;
   text-shadow:4px 3px 1px black;
 }
 
@@ -139,9 +148,13 @@ strong {
 .arrow-box {
   position:absolute;
   bottom:0;
-  left:0;
+  left: 0;
   right:0;
   z-index: 1;
+}
+
+.sidebar-icon {
+  font-size:4vh;
 }
 
 .fa-chevron-circle-down {
@@ -234,26 +247,11 @@ strong {
 @media only screen 
 and (min-device-width : 375px) 
 and (max-device-width : 1024px)  { 
-
-    h1 {
-      font-weight:bold;
-      font-size:11em;
-      /*text-shadow: 10px 21px black;*/
-  }
   
   h4 {
     font-size: 4em;
   }
-  
-  /*.fa {*/
-  /*  font-size:2em;*/
-  /*}*/
-  
-  .portfolio-text {
-    padding: 20px 20%;
-    font-size:3em;
-    line-height:80px;
-  }
+
   
   .resume {
     margin-top:7px;
@@ -263,25 +261,7 @@ and (max-device-width : 1024px)  {
   
   .btn-outline-custom {
     margin-top:20px;
-    font-size:3em;
-    width:auto;
-    padding:20px;
-    height:auto;
   }
-  
-  .wider-button {
-    padding: 20px 40px;
-    font-size:4em;
-    border:10px solid white;
-  }
-  
-  .sub-headline {
-    font-size:5em;
-  }
-  
-  .headline {
-    font-size:11em;
-}
   
   body, h4 {
     font-family: "Cabin"
@@ -294,6 +274,10 @@ and (max-device-width : 1024px)  {
   
   .fa-chevron-circle-down {
     font-size:10.5em;
+  }
+  
+  .no-border, .no-border:hover {
+    border:none;
   }
 
 }

@@ -5,7 +5,7 @@
     <!-- bootstrap cdn -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Cabin|Permanent+Marker|Bungee" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Cabin|Permanent+Marker|Bungee|Crete+Round" rel="stylesheet">
     <!-- font awesome icons -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <!-- custom css -->
@@ -27,8 +27,20 @@
   </head>
   <body>
     
-      <div class="arrow-box">
-        <i class="fa fa-chevron-circle-down animated infinite pulse" aria-hidden="true"></i>
+      <div class="arrow-box animated bounce">
+         <i class="fa fa-bars sidebar-icon" style="text-align:right; margin-right:5px; font-size:3px;" aria-hidden="true"></i>
+         <a class="btn btn-outline-custom no-border"href="#aboutme">
+            <i class="fa fa-address-book-o sidebar-icon" aria-hidden="true"></i>
+          </a>
+         <a class="btn btn-outline-custom no-border"href="#projects">
+            <i class="fa fa-briefcase sidebar-icon" aria-hidden="true"></i>
+            </a>
+          <a class="btn btn-outline-custom no-border"href="#contactme">
+            <i class="fa fa-phone sidebar-icon" aria-hidden="true"></i>
+            </a>
+          <a class="btn btn-outline-custom no-border"href="http://athlete-cups-17287.netlify.com/#/" target="_blank">
+            <i class="fa fa-pencil sidebar-icon" aria-hidden="true"></i>
+          </a>
       </div>
     
     
@@ -46,17 +58,17 @@
       
       <div class="section" data-anchor="aboutme">
         <div class="slide">
-          <h1 style="margin-bottom:20px">About Me</h1>
+          <h1 style="margin-bottom:20px" class="animated">About Me</h1>
           <a class="btn btn-outline-custom wider-button"href="#aboutme/1">In a Nutshell...</i></a>
           <a class="btn btn-outline-custom wider-button"href="#aboutme/3">Hobbies</i></a>
-          <a class="btn btn-outline-custom wider-button"href="#aboutme/4">Future Plans</i></a>
+          <a class="btn btn-outline-custom wider-button"href="#aboutme/4">Goals</i></a>
         </div>
         
         <div class="slide about-me">
           <div class="text-container">
             <div class="row text-center">
               <img src="http://i.imgur.com/Op430uO.png" class="bio-image"/>
-              <h2>Howdy! I'm Alan.</h2>
+              <h2>Howdy! I'm Alan. <a href="#aboutme/2"><i class="fa fa-arrow-right" aria-hidden="true"></i></h2></a>
             </div>
           </div>
         </div>
@@ -64,20 +76,21 @@
         <div class="slide about-me">
           <div class="text-container">
             <h2>I am a full-stack web developer with a knack for design.</h2>
+            <a class="btn btn-outline-custom no-border" href="#aboutme/0"><i class="fa fa-home" aria-hidden="true"></i></a>
           </div>
         </div>
         
         <div class="slide hobbies">
           <div class="text-container">
             <h2>When I'm not coding or watching lectures, I love going to the gym, playing guitar/bass, and hiking.</h2>
-             <a class="btn btn-outline-custom wider-button no-border" href="#aboutme/0">Back</i></a>
+             <a class="btn btn-outline-custom no-border" href="#aboutme/0"><i class="fa fa-home" aria-hidden="true"></i></a>
           </div>
         </div>
         
         <div class="slide goals">
           <div class="text-container">
             <h2>I plan on owning my own startup one day. Having a great idea and just running with it is what development is all about!</h2>
-            <a class="btn btn-outline-custom wider-button no-border" href="#aboutme/0">Back</i></a>
+              <a class="btn btn-outline-custom no-border" href="#aboutme/0"><i class="fa fa-home" aria-hidden="true"></i></a>
           </div>
         </div>
         
@@ -92,7 +105,12 @@
             <a class="btn btn-outline-custom wider-button"href="#projects/2">2</i></a>
             <a class="btn btn-outline-custom wider-button"href="#projects/3">3</i></a>
             <a class="btn btn-outline-custom wider-button"href="#projects/4">4</i></a>
+            <div>
+              <a class="btn btn-outline-custom wider-button"href="#">View Gallery</i></a>
+            </div>
+            
         </div>
+        
         
         <div class="slide" id="portfolio-item2">
             <h1>Blog!</h1>
