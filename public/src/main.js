@@ -17,10 +17,10 @@ $(document).ready(function() {
         $(this).trigger(e);
     })
     
-    $(".fa").hover(function() {
-        $(this).addClass("animated bounce");
+    $(".sidebar-button").hover(function() {
+        $(this).addClass("fa-hover-expand");
     }, function() {
-        $(this).removeClass("animated bounce");
+        $(this).removeClass("fa-hover-expand");
     })
 });
 
