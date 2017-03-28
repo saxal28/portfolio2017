@@ -5,7 +5,7 @@ body {
   font-family: "Cabin";
   
   /*background:url(../src/images/stars.png);*/
-  background:url("http://i.imgur.com/smIamLU.jpg");
+  background:url("http://i.imgur.com/9liNKeg.png");
   /*background:black;*/
   background-size: cover;
   background-attachment: fixed;
@@ -236,26 +236,26 @@ strong {
 }
 
 #title {
-  background:rgba(0,0,0,0.8);
+  background:rgba(0,0,0,0.6);
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
 }
 
 #portfolio {
-  background:rgba(0,0,0,0.8);
+  background:rgba(0,0,0,0.6);
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
 }
 
 
 #about {
-  background:rgba(0,0,0,0.8);
+  background:rgba(0,0,0,0.6);
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
 }
 
 #contact {
-  background:rgba(0,0,0,0.8);
+  background:rgba(0,0,0,0.6);
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
 }
@@ -278,7 +278,7 @@ and (max-device-width : 1024px)  {
   }
   
   h1 {
-    font-size: 8em;
+    font-size: 9em;
   }
   
   h2 {
