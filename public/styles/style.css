@@ -3,24 +3,23 @@ body {
   color:white;
   text-align: center;
   font-family: "Cabin";
-  /*background:url('https://i.imgur.com/ltmWANZ.png');*/
-  /*background:url(../src/images/stars.png), #333;/*/
-  background:url("../src/images/colorful.jpg");
-  /*background:url("http://i.imgur.com/smIamLU.jpg");*/
-  /*background:darkslateblue;*/
+  
+  /*background:url(../src/images/stars.png);*/
+  background:url("http://i.imgur.com/smIamLU.jpg");
+  /*background:black;*/
   background-size: cover;
   background-attachment: fixed;
 }
 
 h1 {
-  font-size: 9.5vh;
+  font-size: 5em;
   font-family: "Bungee";
   text-shadow: 0px 11px black;
   /*text-shadow:6px 4px 2px black;*/
 }
 
 h2 {
-    font-size: 4.5em;
+    font-size: 3em;
   font-family: "Cabin";
   /*text-shadow:4px 3px 1px black;*/
 
@@ -28,18 +27,18 @@ h2 {
 }
 
 .headline {
-      font-size: 11vh;
+      font-size: 7em;
 }
 
 .sub-headline {
-  font-size: 4.5vh;
+  font-size: 3em;
   font-family: "Permanent Marker";
   text-shadow: 4px 3px black;
 
 }
 
 h4 {
-  font-size:3.5vh;
+  font-size:2em;
   font-family: "Permanent Marker";
   text-shadow: 4px 3px black;
 }
@@ -47,8 +46,8 @@ h4 {
 .btn-outline-custom {
   background:transparent;
   /*margin-top:20px;*/
-  border: 0.47vh solid white;
-  font-size:3vh;
+  border: 3px solid white;
+  font-size:1.2em;
   width:auto;
   min-width:70px;
   padding:10px;
@@ -71,21 +70,19 @@ h4 {
 
 .wider-button {
   padding: 10px 20px;
-  margin:8px;
+  margin:4px;
+  
 }
 
 .btn-outline-custom:hover {
-  color: orange;
+  color: maroon;
 }
 
+
 .wider-button:hover {
-  color:white;
-  border-color:orange;
-  border-left: 30px solid orange;
-  border-right: 30px solid orange;
-  padding-left: 0px;
-  padding-right:0px;
-  background:orange;
+  color:black;
+  border-color:white;
+  background:white;
 }
 
 .no-border, .no-border:hover {
@@ -93,7 +90,7 @@ h4 {
 }
 
 .fa {
-  font-size:6vh;
+  font-size:3em;
   padding:5px;
 }
 
@@ -102,7 +99,7 @@ h4 {
 }
 
 .fa-arrow-right, .fa-arrow-left {
-  font-size:6vh;
+  font-size:1.1em;
   color:white;
 }
 
@@ -124,7 +121,7 @@ section {
   padding: 50px 40px;
   max-width:620px;
   margin:0 auto;
-  font-size:3.5vh;
+  font-size:1.8em;
   text-align: left;
   line-height: 1.4;
   text-shadow:4px 3px 1px black;
@@ -167,7 +164,7 @@ strong {
 }
 
 .sidebar-icon {
-  font-size:4vh;
+  font-size:2em;
 }
 
 .fa-chevron-circle-down {
@@ -182,21 +179,21 @@ strong {
 }
 
 .arrow-box > .fa {
-  font-size: 5em;
+  font-size: 3em;
 }
 
 .about-me {
-  background:darkcyan;
+  /*background:darkcyan;*/
   text-align:left;
 }
 
 .hobbies {
-  background:olivedrab;
+  /*background:olivedrab;*/
   text-align: left;
 }
 
 .goals {
- background:chocolate;
+ /*background:chocolate;*/
  text-align: left
 }
 
@@ -239,18 +236,29 @@ strong {
 }
 
 #title {
-  background:transparent;
-  /*background: #fbe8b0;*/
-}
-
-#skills {
-  background: #b5ba63;
+  background:rgba(0,0,0,0.8);
+  -webkit-clip-path: polygon(0 0, 1600px 0, 1600px 70%, 0 100%);
+  clip-path: polygon(0 0, 1600px 0, 1600px 70%, 0 100%);
 }
 
 #portfolio {
-  background:black;
+  background:rgba(0,0,0,0.8);
+  -webkit-clip-path: polygon(0 0, 1600px 0, 1600px 70%, 0 100%);
+  clip-path: polygon(0 0, 1600px 0, 1600px 70%, 0 100%);
 }
 
+
+#about {
+  background:rgba(0,0,0,0.8);
+  -webkit-clip-path: polygon(0 0, 1600px 0, 1600px 70%, 0 100%);
+  clip-path: polygon(0 0, 1600px 0, 1600px 70%, 0 100%);
+}
+
+#contact {
+  background:rgba(0,0,0,0.8);
+  -webkit-clip-path: polygon(0 0, 1600px 0, 1600px 70%, 0 100%);
+  clip-path: polygon(0 0, 1600px 0, 1600px 70%, 0 100%);
+}
 
 /*media queries*/
 
@@ -261,33 +269,59 @@ strong {
 and (min-device-width : 375px) 
 and (max-device-width : 1024px)  { 
   
+  .headline {
+    font-size: 9em;
+  }
+  
+  .sub-headline {
+    font-size: 4em;
+  }
+  
+  h1 {
+    font-size: 8em;
+  }
+  
+  h2 {
+    font-size: 6em;
+  }
+  
+  .portfolio-text {
+    font-size: 3.5em;
+  }
+  
   h4 {
     font-size: 4em;
   }
 
+  .fa {
+    font-size: 5em;
+  }
+  
+  .fa-arrow-left, .fa-arrow-right {
+    font-size: 1em;
+  }
   
   .resume {
-    margin-top:7px;
+    margin-top:6px;
     width:auto;
-    font-size:5em;
   }
   
   .btn-outline-custom {
     margin-top:20px;
   }
   
-
+  .wider-button {
+    font-size: 3.5em;
+    padding: 10px 30px;
+    border: 9px solid white;
+    display: block;
+    max-width: 400px;
+    margin: 20px auto;
+  }
+  
   .bio-image {
     width:50%;
     margin-bottom:40px;
-  }
-  
-  .fa-chevron-circle-down {
-    font-size:10.5em;
-  }
-  
-  .no-border, .no-border:hover {
-    border:none;
   }
 
 }
