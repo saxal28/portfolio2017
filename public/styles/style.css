@@ -237,27 +237,27 @@ strong {
 
 #title {
   background:rgba(0,0,0,0.8);
-  -webkit-clip-path: polygon(0 0, 1600px 0, 1600px 70%, 0 100%);
-  clip-path: polygon(0 0, 1600px 0, 1600px 70%, 0 100%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
 }
 
 #portfolio {
   background:rgba(0,0,0,0.8);
-  -webkit-clip-path: polygon(0 0, 1600px 0, 1600px 70%, 0 100%);
-  clip-path: polygon(0 0, 1600px 0, 1600px 70%, 0 100%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
 }
 
 
 #about {
   background:rgba(0,0,0,0.8);
-  -webkit-clip-path: polygon(0 0, 1600px 0, 1600px 70%, 0 100%);
-  clip-path: polygon(0 0, 1600px 0, 1600px 70%, 0 100%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
 }
 
 #contact {
   background:rgba(0,0,0,0.8);
-  -webkit-clip-path: polygon(0 0, 1600px 0, 1600px 70%, 0 100%);
-  clip-path: polygon(0 0, 1600px 0, 1600px 70%, 0 100%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
 }
 
 /*media queries*/
