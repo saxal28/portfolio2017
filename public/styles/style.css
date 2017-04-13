@@ -9,7 +9,7 @@ body {
   /*background: url("https://s-media-cache-ak0.pinimg.com/originals/5c/e9/0a/5ce90a2e97544c338eb42feb94299d87.jpg");*/
   /*background:url("http://i.imgur.com/E5DZexc.png");*/
   background:slateblue;
-  background:url("https://images6.alphacoders.com/373/373654.jpg");
+  background:url("http://i.imgur.com/IXc2aAP.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
@@ -74,18 +74,24 @@ h4 {
 .wider-button {
   padding: 10px 20px;
   margin:4px;
+  color:black;
+  background:white;
+  border-radius: 0px;
+  box-shadow: 0px 2px 4px black;
+  transition: all 400ms;
   
 }
 
 .btn-outline-custom:hover {
-  color: maroon;
+  color: orange;
 }
 
 
 .wider-button:hover {
-  color:black;
-  border-color:white;
-  background:white;
+  background: rgb(6,74,144);
+  color:white;
+  border-color:  rgb(6,74,144);
+  box-shadow: 0px 5px 6px black;
 }
 
 .no-border, .no-border:hover {
@@ -253,8 +259,8 @@ strong {
 
 #about {
   background:rgba(6,74,144, 0.7);
-  -webkit-clip-path: polygon(0% 15%, 100% 0, 100% 75%, 0 100%);
-  clip-path: polygon(0% 17%, 100% 0, 100% 79%, 0 100%);
+  /*-webkit-clip-path: polygon(0% 15%, 100% 0, 100% 75%, 0 100%);*/
+  /*clip-path: polygon(0% 17%, 100% 0, 100% 79%, 0 100%);*/
 }
 
 #contact {
