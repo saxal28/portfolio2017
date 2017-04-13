@@ -2,10 +2,9 @@
 $(document).ready(function() {
     $('#fullpage').fullpage({
         controlArrows: false,
-        anchors:["home","aboutme","projects","contactme"],
+        anchors:["home","aboutme","contactme"],
         continuousVertical: true,
     });
-    
     // fittext
     //  $("#responsive_headline").fitText();
 

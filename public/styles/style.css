@@ -5,8 +5,11 @@ body {
   font-family: "Cabin";
   
   /*background:url(../src/images/stars.png);*/
-  background:url("http://i.imgur.com/9liNKeg.png");
-  /*background:black;*/
+  
+  /*background: url("https://s-media-cache-ak0.pinimg.com/originals/5c/e9/0a/5ce90a2e97544c338eb42feb94299d87.jpg");*/
+  /*background:url("http://i.imgur.com/E5DZexc.png");*/
+  background:slateblue;
+  background:url("https://images6.alphacoders.com/373/373654.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
@@ -137,7 +140,7 @@ strong {
 }
 
 .project-sub-title{
-  background:rgba(0,0,0,0.5);
+  background:rgba(0,0,0,0.4);
   padding: 10px; 
   font-size:3.5em; 
   /*font-weight:bold*/
@@ -236,28 +239,28 @@ strong {
 }
 
 #title {
-  background:rgba(0,0,0,0.6);
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+  background:rgba(6,74,144, 0.7);
+  /*-webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);*/
+  /*clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);*/
 }
 
-#portfolio {
-  background:rgba(0,0,0,0.6);
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
-}
+/*#portfolio {*/
+/*  background:rgba(0,0,0,0.4);*/
+/*  -webkit-clip-path:polygon(0 15%, 100% 0, 100% 75%, 0 100%);*/
+/*  clip-path: polygon(0 15%, 100% 0, 100% 85%, 0 100%);*/
+/*}*/
 
 
 #about {
-  background:rgba(0,0,0,0.6);
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+  background:rgba(6,74,144, 0.7);
+  -webkit-clip-path: polygon(0% 15%, 100% 0, 100% 75%, 0 100%);
+  clip-path: polygon(0% 17%, 100% 0, 100% 79%, 0 100%);
 }
 
 #contact {
-  background:rgba(0,0,0,0.6);
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+   background:rgba(6,74,144, 0.7);
+  /*-webkit-clip-path: polygon(0 24%, 100% 0, 100% 100%, 0 100%);*/
+  /*clip-path: polygon(0 24%, 100% 0, 100% 100%, 0 100%);*/
 }
 
 /*media queries*/
