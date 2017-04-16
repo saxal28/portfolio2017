@@ -10,7 +10,7 @@
          <!--Import Google Icon Font-->
           <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
          <!--stylesheet-->
-         <link rel="stylesheet" href="styles/gallery.css"></link>
+         <link rel="stylesheet" href="../styles/gallery.css"></link>
     </head>
     <body>
 
@@ -36,7 +36,7 @@
                  <% projects.forEach(function(project) { %>
                  
                      <div class="col s12 m6 l6">
-                            <div class="card">
+                            <div class="card hoverable">
                                 <div class="card-image waves-effect waves-block waves-light">
                                   <img class="activator" src="<%=project.image%>">
                                 </div>
@@ -67,6 +67,6 @@
       integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
       crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
-    <script src="src/gallery.js"></script>
+    <script src="../src/gallery.js"></script>
     </body>
 </html>

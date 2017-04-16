@@ -14,16 +14,22 @@ app.get("/gallery", (req, res) => {
     res.render("gallery.ejs", {projects});
 })
 
+app.get("/gallery/moodtracker", (req, res) => {
+    res.render("moodTracker.ejs");
+})
+
 app.listen(port);
 console.log('started on port 8080');
+
+// project data
 
 const projects = [
     {
         title: "Mood Tracker", 
         image:"https://wallpaperscraft.com/image/panda_smile_white_black_minimalist_74449_2560x1600.jpg",
-        description: "A Minimalist YouTube Clone with a SearchBar and a random button. <strong>Built with React and Redux</strong>",
+        description: "",
         github: "",
-        link: ""
+        link: "/gallery/moodtracker"
     },
     {
         title: "Fit Tools", 

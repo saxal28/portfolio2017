@@ -74,8 +74,8 @@ h4 {
 .wider-button {
   padding: 10px 20px;
   margin:4px;
-  color:black;
-  background:white;
+  color:white;
+  background:transparent;
   border-radius: 0px;
   box-shadow: 0px 2px 4px black;
   transition: all 400ms;
