@@ -16,10 +16,11 @@ h1, h2, h3, h4, h5, p {
 }
 
 .header {
+    box-shadow: 0px 2px 7px black;
     text-align: center;
-    height: 100vh;
+    height: 40vh;
     width:100%;
-    background: url("http://professor-excel.com/wp-content/uploads/2016/01/Wallpaper_Excel_9.png");
+    background: #1e5a2c;
     display: flex;
     align-items: center;
     justify-content: center;

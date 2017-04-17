@@ -27,7 +27,7 @@ const projects = [
     {
         title: "Mood Tracker", 
         image:"https://wallpaperscraft.com/image/panda_smile_white_black_minimalist_74449_2560x1600.jpg",
-        description: "",
+        description: "A React Native Health Application. Track your weight and mood, see trends, and find correlations between the two. Also tracks gym strength stats. <strong>Built with React, React Native, Firebase, Node, and Express",
         github: "",
         link: "/gallery/moodtracker"
     },
